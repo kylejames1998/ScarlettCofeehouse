@@ -1,4 +1,4 @@
-# OnlineStore-James
+# Scarlet Coffeehouse
 
 ### Author:
 Kyle James
