@@ -96,4 +96,5 @@ h2 {
 .hf {
     font-family: myfont;
     color: black;
+    margin-left: 5px;
 }
