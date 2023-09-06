@@ -1,0 +1,55 @@
+/* sets the width of the logo and the top margin */
+.logo {
+    width: 300px;
+    margin-top: 50px;
+}
+/* */
+.product-heading {
+    color: green;
+}
+/* changes the hight of the product images */
+.product_img {
+    height: 100px;
+}
+/* changes the list to have no bullets */
+.ul-style {
+    list-style-type: none;
+}
+/* aligns the products to the left */
+.product_spacing {
+    text-align: left;
+}
+/* changes the width of the paragraph on the home page to 25% */
+.CP {
+    width: 25%;
+}
+/* changes the font size and family of the store name on all 3 pages */
+.store-name {
+    font-size: 180%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 25px;
+}
+/* adds padding and a colored background as well as a rounded border to the store title */
+.title-background {
+    padding: 1px;
+    background-color: #C56E33;
+    border: 0px;
+    border-radius: 25px;
+    width: 35%
+}
+/* changes the font size of the products header to 180% */
+.products_header {
+    font-size: 180%;
+}
+/* changes the width of all product descriptions to 70% of the screen */
+.pd {
+    width: 70%;
+}
+/* changes the font size to 190% for the home title on the index page */
+.home_title {
+    font-size: 190%;
+}
+/* changes the bullets to uppercase roman characters */
+ol {
+    list-style-type: upper-roman;
+}
