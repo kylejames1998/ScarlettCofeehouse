@@ -1,7 +1,8 @@
 /* sets the width of the logo and the top margin */
 .logo {
-    width: 300px;
+    width: 400px;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 /* */
 .product-heading {
@@ -35,7 +36,7 @@
     background-color: #C56E33;
     border: 0px;
     border-radius: 25px;
-    width: 35%
+    width: 100%   
 }
 /* changes the font size of the products header to 180% */
 .products_header {
@@ -58,8 +59,8 @@ ol {
     list-style-type: none;
     padding: 1em 0;
     text-align: center;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px solid #C56E33;
+    border-bottom: 2px solid #C56E33;
 }
 
 #nav_menu ul li {
@@ -74,4 +75,25 @@ ol {
 
 #nav_menu ul li a.current {
     text-decoration: none;
+}
+
+.lp {
+    width: 70%;
+    font-size: medium;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(Audiowide\ Regular.ttf);
+}
+
+h2 {
+    font-family: myfont;
+    color: black;
+    
+}
+
+.hf {
+    font-family: myfont;
+    color: black;
 }
