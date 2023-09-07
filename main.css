@@ -102,3 +102,9 @@ h2 {
 .trn {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.hrs {
+    background-color: #C56E33;
+    height: 3px;
+    border: none;
+}
