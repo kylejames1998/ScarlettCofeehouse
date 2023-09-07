@@ -50,11 +50,8 @@
 .home_title {
     font-size: 190%;
 }
-/* changes the bullets to uppercase roman characters */
-ol {
-    list-style-type: upper-roman;
-}
 
+/* styles a border above and below the nav bar */
 #nav_menu ul {
     list-style-type: none;
     padding: 1em 0;
@@ -63,65 +60,77 @@ ol {
     border-bottom: 2px solid #C56E33;
 }
 
+/* makes the nav bar horizontal */
 #nav_menu ul li {
     display: inline;
     padding: 0 1.5em;
 }
 
+/* changes the color of the links in the nav bar */
 #nav_menu ul li a {
     font-weight: bold;
     color: blue;
 }
 
+/* removes the text decoration from the list items */
 #nav_menu ul li a.current {
     text-decoration: none;
 }
 
+/* changes font size of the list prices */
 .lp {
     width: 70%;
     font-size: medium;
 }
 
+/* adds the font from my logo as an available font to be used */
 @font-face {
     font-family: myfont;
     src: url(Audiowide\ Regular.ttf);
 }
-
+/* changes h2 elements to my added font */
 h2 {
     font-family: myfont;
     color: black;
     
 }
-
+/* changes store title to selected font and changes color to black */
 .hf {
     font-family: myfont;
     color: black;
     margin-left: 5px;
 }
 
+/* changes the font in the table */
 .trn {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* styles the <hr> elements */
 .hrs {
     background-color: #C56E33;
     height: 3px;
     border: none;
 }
 
+/* changes the table header colors */
 .tablebc {
     background-color: #6ab04c;
 }
+
+/* changes the color of the table body */
 .tdbc {
     background-color: #dff9fb;
 }
 
+/* adds a border to the table */
 .table {
     border: 3px;
     border-color: black;
     width: 100%;
 }
 
+/* adds the border around text elements on the home and coffee history page */
 .sb {
     padding: 4px;
     background-color: #a09a97;
@@ -130,7 +139,7 @@ h2 {
     width: 100%   
    
 }
-
+/* aligns the page title in the center */
 .hc {
     text-align: center;
 }
